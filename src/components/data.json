@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "name": "Turbo trader",
+    "description": "This is car dealer-company project which provides user to authorization, search cars and book for test drive.",
+    "pic": "turbotrader.png",
+    "gitlink": "https://github.com/sid1514/web_project.git",
+    "demo": "https://turbotraders.onrender.com",
+    "skills": [
+      { "name": "React ", "icon": "reactlogo.png" },
+      { "name": "Node ", "icon": "nodejs.png" },
+      { "name": "Express ", "icon": "nodejs.png" },
+      { "name": "Mongodb", "icon": "mongodb.png" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Chat App",
+    "description": "This is real time chat app project which provides user to authorization and authentication, search for users, chat with them and also chat with group features.",
+    "pic": "chatApp1.png",
+    "gitlink": "https://github.com/sid1514/ChitChatAppSid.git",
+    "demo": "https://chit-chat-app-sid.vercel.app/",
+    "skills": [
+      { "name": "React", "icon": "reactlogo.png" },
+      { "name": "Node ", "icon": "nodejs.png" },
+      { "name": "Express ", "icon": "nodejs.png" },
+      { "name": "Mongodb", "icon": "mongodb.png" },
+      { "name": "Tailwind ", "icon": "tailwindcss.png" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Spotify clone",
+    "description": "a spotify desktop web player clone in which i design user-interface of spotify and implemented spotify user-authentication and playlists by using Spotify APIs.",
+    "pic": "spotify1.png",
+    "gitlink": "https://github.com/sid1514/Spotify_clone.git",
+    "demo": "https://spotify-clone-sid.vercel.app/",
+    "skills": [
+      { "name": "React", "icon": "reactlogo.png" },
+
+      { "name": "Tailwind ", "icon": "tailwindcss.png" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Todo List",
+    "description": "This is a task listing app where user can add new task and also can delete and edit that tasks.",
+    "pic": "todo.png",
+    "gitlink": "https://github.com/sid1514/TodoList.git",
+    "demo": "https://todolist-sid.onrender.com/",
+    "skills": [
+      { "name": "React ", "icon": "reactlogo.png" },
+      { "name": "Node ", "icon": "nodejs.png" },
+      { "name": "Express ", "icon": "nodejs.png" },
+      { "name": "Mongodb", "icon": "mongodb.png" },
+      { "name": "Tailwind ", "icon": "tailwindcss.png" }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Weather App",
+    "description": "a basic weather app used api's for giving real time weather situations like temperature,humidity etc and also provide search, suggestion and open in new tab feature.",
+    "pic": "weather.png",
+    "gitlink": "https://github.com/sid1514/WeatherApp.git",
+    "demo": "https://weatherapp-3t5g.onrender.com",
+    "skills": [
+      { "name": "React ", "icon": "reactlogo.png" },
+      { "name": "Node ", "icon": "nodejs.png" },
+      { "name": "Express ", "icon": "nodejs.png" },
+      { "name": "Mongodb", "icon": "mongodb.png" },
+      {
+        "name": "Tailwind ",
+        "icon": "tailwindcss.png"
+      }
+    ]
+  }
+]

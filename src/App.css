@@ -1,0 +1,52 @@
+/* app.css */
+.bg-img {
+  background-image: url("https://wallpapercave.com/wp/wp5516587.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bgText {
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.ListNav {
+  display: none;
+}
+
+.image_filter {
+  filter: drop-shadow(0px 0px 10px rgb(0, 0, 0));
+}
+
+.textarea1 {
+  width: 21vw;
+}
+
+@media (max-width: 768px) {
+  .ListNav {
+    display: flex;
+    flex-direction: column;
+  }
+  .bgText {
+    font-size: smaller;
+    display: flex;
+  }
+  .resumeBt {
+    position: absolute;
+    top: 2.5vh;
+    left: 52vw;
+    font-size: smaller;
+  }
+  .EPSbt {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 11.5vw;
+    justify-content: space-evenly;
+  }
+  .textarea1 {
+    width: 50vw;
+    height: 10vh;
+  }
+}
