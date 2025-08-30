@@ -34,7 +34,7 @@ const Home = ({
       "I turn ideas into interactive web experiences.",
       "Dive in to see my creations in action",
     ],
-    loop: true, // Changed to `true` for infinite loop
+    loop: true, 
   });
 
   const handleClickMore = () => {
@@ -44,8 +44,8 @@ const Home = ({
     if (!showMore) {
       setShowParagraphs([false, false, false]);
       setTimeout(() => setShowParagraphs([true, false, false]), 500);
-      setTimeout(() => setShowParagraphs([true, true, false]), 1000);
-      setTimeout(() => setShowParagraphs([true, true, true]), 1500);
+      setTimeout(() => setShowParagraphs([true, true, false]), 600);
+      setTimeout(() => setShowParagraphs([true, true, true]), 700);
     } else {
       setShowParagraphs([false, false, false]);
     }
@@ -135,21 +135,21 @@ const Home = ({
           } mt-0 text-center`}
         >
           <p
-            className="text-neutral-200 md:text-2xl hover:underline underline-offset-4"
+            className="text-neutral-200 md:text-2xl hover:underline underline-offset-4 cursor-pointer"
             style={{ textShadow: "1px 1px 4px rgba(0, 0, 0, 0.7)" }}
             onClick={() => scrollToSection(ExperienceRef)}
           >
             Experiences
           </p>
           <p
-            className="text-neutral-200 md:text-2xl hover:underline underline-offset-4"
+            className="text-neutral-200 md:text-2xl hover:underline underline-offset-4 cursor-pointer"
             style={{ textShadow: "1px 1px 4px rgba(0, 0, 0, 0.7)" }}
             onClick={() => scrollToSection(projectRef)}
           >
             Projects
           </p>
           <p
-            className="text-neutral-200 md:text-2xl hover:underline underline-offset-4"
+            className="text-neutral-200 md:text-2xl hover:underline underline-offset-4 cursor-pointer"
             style={{ textShadow: "1px 1px 4px rgba(0, 0, 0, 0.7)" }}
             onClick={() => scrollToSection(SkillsRef)}
           >
@@ -168,7 +168,7 @@ const Home = ({
             />
           </div>
           {showMore && (
-            <div className="text-right p-4 flex flex-col">
+            <div className="text-right p-4 flex flex-col cursor-pointer">
               <div
                 className={`font-bold font-mono transition-opacity duration-500 ${
                   showParagraphs[0] ? "opacity-100" : "opacity-0"
