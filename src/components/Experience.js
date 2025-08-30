@@ -37,7 +37,7 @@ const Experience = ({ ExperienceRef }) => {
       <h3 className="md:ml-20 ml-6 underline underline-offset-4 font-mono md:text-2xl text-xl text-sky-400/50 mb-10">
         Experience
       </h3>
-      <div className="w-full overflow-x-auto m-5 flex justify-center md:text-xl h-min p-4 gap-x-3">
+      <div className="w-full overflow-x-auto m-5 flex justify-center md:text-xl h-min p-4 gap-x-3 max-sm:flex-col max-sm:gap-y-5">
         {
 
       experiences.map((exp, index) => (

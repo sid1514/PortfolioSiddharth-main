@@ -25,14 +25,21 @@ function App() {
         CertificateRef={CertificateRef}
       />
       <div className="bg-gradient-to-b from-neutral-950 from-via-neutral-800 to-neutral-700 text-white h-full space-y-16">
-        <Projects projectRef={projectRef} className="bg-neutral-900" />
-
-        <Experience ExperienceRef={ExperienceRef} />
-
-        <Skills SkillsRef={SkillsRef} />
-
-        <Certificate CertificateRef={CertificateRef} />
-        <ContactMe />
+        <div className="w-full h-screen overflow-hidden">
+          <Projects projectRef={projectRef} className="bg-neutral-900" />
+        </div>
+        <div className="w-full h-screen overflow-hidden">
+          <Experience ExperienceRef={ExperienceRef} />
+        </div>
+        <div className="w-full h-screen overflow-hidden">
+          <Skills SkillsRef={SkillsRef} />
+        </div>
+        <div className="w-full h-screen overflow-hidden">
+          <Certificate CertificateRef={CertificateRef} />
+        </div>
+        <div className="w-full h-screen overflow-hidden">
+          <ContactMe />
+        </div>
       </div>
     </>
   );

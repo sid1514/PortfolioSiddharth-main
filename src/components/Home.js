@@ -56,7 +56,7 @@ const Home = ({
   };
 
   return (
-    <section className="font-mono bg-img p-10 bg-neutral-950 w-full text-white bg-gradient-to-r from-neutral-950 to-neutral-500 h-8/12">
+    <section className="font-mono bg-img p-10 bg-neutral-950 w-full text-white bg-gradient-to-r from-neutral-950 to-neutral-500">
       <div
         className=" h-24 flex flex-col md:flex-row md:space-x-10"
         id="nav-component"
@@ -196,7 +196,7 @@ const Home = ({
         </div>
       </div>
 
-      <div className="relative justify-center md:w-full text-center flex-col md:flex align-center pt-16 ">
+      <div className="relative justify-center md:w-full text-center flex-col md:flex align-center">
         <div
           className="overflow-hidden bg-gradient-to-r from-neutral-900/25 from-10% md:via-neutral-500 via-neutral-700 via-30% to-neutral-400/25 to-90% rounded-full flex justify-between place-center"
           style={{

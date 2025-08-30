@@ -5,11 +5,13 @@ import { motion } from "framer-motion";
 const Projects = ({ projectRef }) => {
   return (
     <>
+    <div className="bg-gradient-to-b from-neutral-950 from-via-neutral-800 to-neutral-700 text-white h-full overflow-y-auto">
+
       <p className="md:text-2xl text-xl pt-16 m-16 font-bold underline underline-offset-4 font-mono">
         Projects
       </p>
       <div
-        className="w-full justify-center text-center md:p-10 "
+        className="w-full flex flex-wrap justify-center text-center md:p-10 "
         ref={projectRef}
       >
         {data.map((p, index) => (
@@ -73,6 +75,7 @@ const Projects = ({ projectRef }) => {
             View more on github
           </a>
         </div>
+      </div>
       </div>
     </>
   );

@@ -18,7 +18,7 @@ const Certificate = ({ CertificateRef }) => {
   ];
   return (
     <div
-      className="m-[20%] flex flex-col justify-center text-center pt-16"
+      className="flex flex-col justify-center text-center"
       ref={CertificateRef}
     >
       <h3 className="text-2xl font-mono underline underline-offset-4">
@@ -44,6 +44,7 @@ const Certificate = ({ CertificateRef }) => {
                 src={`${c}`}
                 className="m-auto shadow-lg shadow-neutral-800"
                 width={500}
+                alt="certificate"
               />
             </SwiperSlide>
             ))}
